@@ -1,0 +1,7 @@
+This project focuses on predictive modeling to identify potential customers likely to purchase vehicle insurance, using historical data from an insurance provider. The dataset contains demographic, policy, and vehicle information, with the target variable being whether a customer purchased vehicle insurance (`Response`).
+
+The workflow includes data preprocessing handling missing values, encoding categorical variables, removing outliers, and scaling numerical features. Class imbalance in the target variable is addressed through oversampling (SMOTE) and undersampling techniques. Exploratory Data Analysis (EDA) visualizes feature distributions, correlations, and class imbalances.
+
+Four machine learning models are implemented: Logistic Regression, Decision Tree, Random Forest, and Gaussian Naive Bayes. Each model is trained and evaluated on original, oversampled, and undersampled datasets. Hyperparameter tuning is performed using `RandomizedSearchCV`, and models are assessed using metrics like Accuracy, ROC-AUC, and F1-score. Results are visualized to compare model performance across datasets and identify the best approach for customer targeting.
+
+The project is implemented in Python using libraries like pandas, scikit-learn, imbalanced-learn, seaborn, and matplotlib. It demonstrates robust preprocessing, effective handling of imbalanced data, and insights for optimizing customer engagement strategies.
